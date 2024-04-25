@@ -19,7 +19,7 @@ Public Class Form1
         waldir = conectarmysqlcomand.ExecuteReader
         If waldir.HasRows <> False Then
             MsgBox("Acceso Correcto")
-            MDIParent1.Show()
+            Form5.Show()
         Else
             MsgBox("Acceso DENEGADO")
         End If
